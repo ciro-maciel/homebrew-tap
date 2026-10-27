@@ -1,6 +1,6 @@
 cask "ciro-speech-to-text" do
-  version "1.36.0"
-  sha256 "9a53f75c7201c43a0ea39f2d86cfdca230265a1d7fa3f159ee7f9015416005b2"
+  version "2.0.3"
+  sha256 "48e69206e60a8c0b23834932d763d9f806ca3a588c1dd7bf592f15993b03f44f"
 
   url "https://github.com/ciro-maciel/speech-to-text/releases/download/v#{version}/Speech-to-Text-#{version}-macos.dmg"
   name "Speech to Text"
@@ -12,9 +12,8 @@ cask "ciro-speech-to-text" do
     strategy :github_latest
   end
 
-  auto_updates true
   depends_on arch: :arm64
-  depends_on :macos
+  depends_on macos: ">= :sonoma"
 
   app "Speech to Text.app"
 
@@ -24,9 +23,7 @@ cask "ciro-speech-to-text" do
     "~/Library/Application Support/click.ciromaciel.speech-to-text",
     "~/Library/Application Support/speech-to-text",
     "~/Library/Caches/click.ciromaciel.speech-to-text",
-    "~/Library/HTTPStorages/speech-to-text.binarycookies",
     "~/Library/Logs/click.ciromaciel.speech-to-text",
     "~/Library/Preferences/click.ciromaciel.speech-to-text.plist",
-    "~/Library/WebKit/click.ciromaciel.speech-to-text",
   ]
 end
