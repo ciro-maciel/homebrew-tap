@@ -1,6 +1,6 @@
 cask "ciro-text-to-speech" do
-  version "0.4.0"
-  sha256 "6359d8daee6d41fb1bdc94d1f0fcc428a412534f127393bd16b633fedd131e4c"
+  version "1.0.0"
+  sha256 "509603622f18b46ba2b06fa4d2d4109cd5087ce14341fff154b5d4d3eddca677"
 
   url "https://github.com/ciro-maciel/text-to-speech/releases/download/v#{version}/Text-to-Speech-#{version}-macos.dmg"
   name "Text to Speech"
@@ -13,7 +13,7 @@ cask "ciro-text-to-speech" do
   end
 
   depends_on arch: :arm64
-  depends_on :macos
+  depends_on macos: ">= :sonoma"
 
   app "Text to Speech.app"
 
@@ -24,6 +24,5 @@ cask "ciro-text-to-speech" do
     "~/Library/Caches/click.ciromaciel.text-to-speech",
     "~/Library/Logs/click.ciromaciel.text-to-speech",
     "~/Library/Preferences/click.ciromaciel.text-to-speech.plist",
-    "~/Library/WebKit/click.ciromaciel.text-to-speech",
   ]
 end
