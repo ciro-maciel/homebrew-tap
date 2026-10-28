@@ -1,6 +1,6 @@
 cask "ciro-windows" do
-  version "0.3.0"
-  sha256 "eb8361ae4036e7c57ec8fd51d4580f99b54a364195c8213300eb4722c0b165c0"
+  version "0.3.2"
+  sha256 "3c6ab22298a1e53136b8c55928a0392a92d4344884e03a112433e6869880f28a"
 
   url "https://github.com/ciro-maciel/windows/releases/download/v#{version}/Windows-#{version}-macos.dmg"
   name "Windows"

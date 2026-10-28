@@ -1,6 +1,6 @@
 cask "ciro-cleaner" do
-  version "0.4.0"
-  sha256 "303991caf782308e4fda288db11f8adad9a87429da248d3164dcc65d9dfa8e0c"
+  version "0.4.3"
+  sha256 "8677eb7bd30fe7b3c120438651469083ff4de33bae9d6d89b73812bce2cd6747"
 
   url "https://github.com/ciro-maciel/cleaner/releases/download/v#{version}/Cleaner-#{version}-macos.dmg"
   name "Cleaner"

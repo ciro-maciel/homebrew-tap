@@ -1,6 +1,6 @@
 cask "ciro-voice-assistant" do
-  version "0.5.0"
-  sha256 "1b8e09c4adea0673f9f9e1dc3044c70862c0f2c5f01dc828ee5eba7c72ccbe8d"
+  version "0.5.1"
+  sha256 "65eee327bbedf77b0edc0f68891521d9507ec47e06cec36809892afa2619dfc8"
 
   url "https://github.com/ciro-maciel/voice-assistant/releases/download/v#{version}/Assistant-#{version}-macos.dmg"
   name "Assistant"

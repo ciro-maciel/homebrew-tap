@@ -1,6 +1,6 @@
 cask "ciro-screenshots" do
-  version "0.3.0"
-  sha256 "c3b24ed1ec7cd839a46902def16ae48d9e2934df7e2fe7d9ec3b9d36fffb8e1a"
+  version "0.3.5"
+  sha256 "41a7f4afb073219e4270e8f17bd29e5b406a8523e5ef1798eb25ee7414e4406d"
 
   url "https://github.com/ciro-maciel/screenshots/releases/download/v#{version}/Screenshots-#{version}-macos.dmg"
   name "Screenshots"

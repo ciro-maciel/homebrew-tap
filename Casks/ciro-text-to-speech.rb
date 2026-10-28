@@ -1,6 +1,6 @@
 cask "ciro-text-to-speech" do
-  version "1.0.0"
-  sha256 "509603622f18b46ba2b06fa4d2d4109cd5087ce14341fff154b5d4d3eddca677"
+  version "1.0.2"
+  sha256 "4a7af122b40460bb795e33a30d133a40048f05a57ef74296ad24256efc88c8ea"
 
   url "https://github.com/ciro-maciel/text-to-speech/releases/download/v#{version}/Text-to-Speech-#{version}-macos.dmg"
   name "Text to Speech"
