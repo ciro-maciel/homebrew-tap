@@ -1,6 +1,6 @@
 cask "ciro-speech-to-text" do
-  version "2.0.6"
-  sha256 "2ad8067b663040f95c1248ea11fb28b000de0f79b1f4ed689d09c9bf62ee50da"
+  version "2.0.7"
+  sha256 "e454cf19e5aa696eb1e1f5055c1261baaf3ae6bfff569fa17ef8553179191af8"
 
   url "https://github.com/ciro-maciel/speech-to-text/releases/download/v#{version}/Speech-to-Text-#{version}-macos.dmg"
   name "Speech to Text"
